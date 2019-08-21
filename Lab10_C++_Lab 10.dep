@@ -1,0 +1,58 @@
+Dependencies for Project 'Lab10_C++', Target 'Lab 10': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5AD89CA0)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.cpp)(0x5CD1AFE8)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+I (PLL.h)(0x5ACE6630)
+I (ST7735.h)(0x5AD8973E)
+I (Random.h)(0x5A9E0F62)
+I (SlidePot.h)(0x5ABC4198)
+I (Images.h)(0x5CCDC714)
+I (UART.h)(0x5ACEAE24)
+I (Timer0.h)(0x5AD8973E)
+I (Timer1.h)(0x5AD8973E)
+I (player.h)(0x5CD1B130)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (Sound.h)(0x5CD1ABEB)
+I (DAC.h)(0x5CD1ABEB)
+F (.\DAC.cpp)(0x5CCB80E1)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+I (DAC.h)(0x5CD1ABEB)
+F (.\PLL.cpp)(0x5CCB80DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (PLL.h)(0x5ACE6630)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+F (.\random.cpp)(0x5C4946C2)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\random.o --omf_browse .\random.crf --depend .\random.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+F (.\ST7735.cpp)(0x5CCB80DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (ST7735.h)(0x5AD8973E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+F (.\SlidePot.cpp)(0x5CCB80E1)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\slidepot.o --omf_browse .\slidepot.crf --depend .\slidepot.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (SlidePot.h)(0x5ABC4198)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+F (.\Sound.cpp)(0x5CD1ABEB)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (Sound.h)(0x5CD1ABEB)
+I (DAC.h)(0x5CD1ABEB)
+F (.\Timer0.cpp)(0x5CCB80DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (Timer0.h)(0x5AD8973E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+F (.\Timer1.cpp)(0x5CCB80DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (Timer1.h)(0x5AD8973E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+F (.\UART.cpp)(0x5CCB80DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (inc/tm4c123gh6pm.h)(0x5C93CEC7)
+I (FIFO.h)(0x5ACEB042)
+I (UART.h)(0x5ACEAE24)
+F (.\FIFO.cpp)(0x5AD8F6E8)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I.\RTE\_Lab_10-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM-o .\fifo.o --omf_browse .\fifo.crf --depend .\fifo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (FIFO.h)(0x5ACEB042)
+I (ST7735.h)(0x5AD8973E)
+F (.\player.h)(0x5CD1B130)()
+F (.\bullet.h)(0x5CCBAFA7)()
